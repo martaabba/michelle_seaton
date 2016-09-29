@@ -10,19 +10,18 @@ $(document).ready(function(){
                   window.location.hash = href;
                                   });
               return false;
-                                              });
+                                              }); //close nav bar smooth scroll
 
 	//Stellar
 	$.stellar();
 
 	//gallery section
-$('.thumbnail').click(function(){
-  	$('.modal-body').empty();
-  	var title = $(this).attr("title");
-  	$('.modal-title').html(title);
-  	$(this.innerHTML).appendTo('.modal-body');
-  	$('#myModal').modal({show:true});
-    });
+//		for(var i = 0; i < works.length; ++i ) {
+//  $("#gallery").append("\
+  //  <div class='col-sm-6 col-md-3'>\
+    //  <img class='img-responsive' src='" + works[i] + "'>\
+//    </div>\
+// ");
 	//close gallery section
-  }
-});
+ }
+}); // document ready function closed

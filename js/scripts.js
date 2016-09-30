@@ -22,14 +22,11 @@ $(document).ready(function(){
                     return $(this).ekkoLightbox({
                         onShown: function() {
                             if (window.console) {
-                                return console.log('Checking our the events huh?');
+                                return console.log('Checking out the shows, huh?');
                             }
                         },
-						onNavigate: function(direction, itemIndex) {
-                            if (window.console) {
-                                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
-                            }
-						}
+				
+						
                     });
                 });
 

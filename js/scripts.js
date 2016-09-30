@@ -16,12 +16,11 @@ $(document).ready(function(){
 	$.stellar();
 
 	//gallery section
-//		for(var i = 0; i < works.length; ++i ) {
-//  $("#gallery").append("\
-  //  <div class='col-sm-6 col-md-3'>\
-    //  <img class='img-responsive' src='" + works[i] + "'>\
-//    </div>\
-// ");
-	//close gallery section
- }
+	
+
+ 
+	
+
+  
+  
 }); // document ready function closed

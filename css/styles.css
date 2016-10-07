@@ -7,24 +7,24 @@ body{
 	background-color: black;
 	position: relative;
 } 
-/*--nav bare--*/
+/*--nav bar--*/
 .navbar{
-	background-color: rgba(0,0,0,10);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
 }
 
+
 /* carousel css layout*/
-.container-fluid {
-	height: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+.juumbotron {
+	min-height: 100vh;
+	/*padding-left: 0px;
+	padding-right: 0px; */
+	margin:-15px;
 	vertical-align: 100vw;
 }
 
-.carousel-inner img{
-	margin: auto;
-	height: 100vh;
-	width: 100vw;
-}
+
 
 
 
@@ -54,37 +54,56 @@ body{
 /*end carousel css layout*/
 
 /*begin parallax image manipulation*/
-
-#director-image{
-	background-image: url("../img/dogseesgod.jpg");
+#current-project{
+	background-image: url("../img/castlineup.jpg");
+	background-size: 100% 100%;
 	background-attachment: fixed;
+	background-position: center;
 	background-repeat:no-repeat;
 	background-color: black;
-	background-size: 100% 100%;
+	
 	height: 700px;	
-	width:  100vw;
+	
+	top: 50%;
+	}
+
+
+#director-image{
+	background-image: url("../img/egypt3.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-color: black;
+	
+	height: 700px;	
+	
 	top: 50%;
 	}
 
 #teacher-image{
 	background-image: url("../img/houseofbernardaalba.jpg");
+	background-size: 100% 100%;
 	background-attachment: fixed;
+	background-position: center;
 	background-repeat:no-repeat;
 	background-color: black;
-	background-size: 100% 100%;
+	
 	height: 700px;	
-	width:  100vw;
+
 	top: 50%;
 	}
 
 #acting-image{
 	background-image: url("../img/actingkissit.jpg");
+	background-size: contain;
 	background-attachment: fixed;
+	background-position: center;
 	background-repeat:no-repeat;
 	background-color: black;
-	background-size: 100% 100%;
+	
 	height: 700px;	
-	width: 100%;
+
 	top: 50%;
 	}
 
@@ -93,15 +112,32 @@ body{
 
 
 /*--parallax end--*/
+/*--containers--*/
+#gallery, #acting, #directing, #teaching, #contact, #current {
+	margin-top:2em;
+	margin-bottom: 2em;
+	vertical-align: center;
+}
+
+
 
 /*--gallery --*/
 
+#gallery{
+	display: table-cell;
+    vertical-align: middle;
+    text-align:center
+}
+	
+	
+
+/*--contact --*/
 
 
 
 /*--text--*/
 .my-navbar{
-	background-color: black;
+	background-color: #424b54;
 	border-radius: 0;
 	border: 0;
 }
@@ -111,10 +147,44 @@ body{
 	font-family: 'Rock Salt', cursive;
 }
 
+h1{
+	color: #6699cc;
+	font-size: 5em;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+}
+
 h2{
 	color: #6699cc;
 	font-size: 4em;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	
 }
+
+h3{
+	color: #6699cc;
+	font-size: 2em;
+	text-align: center;
+	
+}
+#michelleseaton  p {
+	color: #6699cc;
+	font-family: 'Rock Salt', cursive;
+	font-size:1em;
+}
+#contact p {
+	color: #6699cc;
+	font-size: 2em;
+	text-align: center;
+	
+}
+#contact h3 {
+	color: #6699cc;
+	font-family: 'Rock Salt', cursive;
+	font-size:3em;
+}
+
 
 p{
 	color: white;

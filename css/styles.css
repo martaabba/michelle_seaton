@@ -6,7 +6,16 @@
 body{
 	background-color: black;
 	position: relative;
-} 
+}
+
+div{
+	display:block;
+}
+
+.img{
+	max-width: 110%;
+}
+
 /*--nav bar--*/
 .navbar{
 	padding-top: 5px;
@@ -15,14 +24,26 @@ body{
 }
 
 
+
 /* carousel css layout*/
-.juumbotron {
+/*.jumbotron {
 	min-height: 100vh;
-	/*padding-left: 0px;
-	padding-right: 0px; */
-	margin:-15px;
-	vertical-align: 100vw;
-}
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left:-15px;
+	margin-right: -15px;
+	min-width: 100vw;
+}*/
+.carousel .item {
+      height: 100vh;
+    }
+.carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 100vh;
+    }
 
 
 
@@ -32,13 +53,7 @@ body{
 	text-align: right;
 	}
 
-.item{
-	left: 0;
-	min-height: 100%;
-	min-width: 100%;
-	position: fixed;
-	top: 0;
-	}
+
 
 .carousel-control.left .glyphicon {
     left: 0;
@@ -113,25 +128,46 @@ body{
 
 /*--parallax end--*/
 /*--containers--*/
-#gallery, #acting, #directing, #teaching, #contact, #current {
+#acting, #directing, #teaching, #contact, #current {
 	margin-top:2em;
 	margin-bottom: 2em;
 	vertical-align: center;
 }
-
+#gallery{
+	margin-top:2em;
+	padding-bottom: 3em;
+	vertical-align: center;
+}
 
 
 /*--gallery --*/
 
-#gallery{
-	display: table-cell;
-    vertical-align: middle;
-    text-align:center
+.resume-button{
+	text-align: center;
 }
 	
 	
 
 /*--contact --*/
+
+.modal-body {
+	position: relative;
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: auto; 
+	-webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
+	border: solid black 1px;
+} 
+
+.modal-body iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 
 
@@ -168,6 +204,14 @@ h3{
 	text-align: center;
 	
 }
+
+h4{
+	color: #6699cc;
+	font-family: 'Rock Salt', cursive;
+	font-size: 2em;
+	text-align: center;
+	
+}
 #michelleseaton  p {
 	color: #6699cc;
 	font-family: 'Rock Salt', cursive;
@@ -179,11 +223,7 @@ h3{
 	text-align: center;
 	
 }
-#contact h3 {
-	color: #6699cc;
-	font-family: 'Rock Salt', cursive;
-	font-size:3em;
-}
+
 
 
 p{

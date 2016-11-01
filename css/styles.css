@@ -71,9 +71,9 @@ div{
 /*begin parallax image manipulation*/
 #current-project{
 	background-image: url("../img/castlineup.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center center;
 	background-repeat:no-repeat;
 	background-color: black;
 	
@@ -85,9 +85,9 @@ div{
 
 #director-image{
 	background-image: url("../img/egypt3.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center center;
 	background-repeat:no-repeat;
 	background-color: black;
 	
@@ -98,9 +98,9 @@ div{
 
 #teacher-image{
 	background-image: url("../img/houseofbernardaalba.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center center;
 	background-repeat:no-repeat;
 	background-color: black;
 	
@@ -111,9 +111,9 @@ div{
 
 #acting-image{
 	background-image: url("../img/actingkissit.jpg");
-	background-size: contain;
+background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center center;
 	background-repeat:no-repeat;
 	background-color: black;
 	
@@ -156,7 +156,7 @@ div{
 	padding-top: 30px;
 	height: 0;
 	overflow: auto; 
-	-webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
+	-webkit-overflow-scrolling:touch;
 	border: solid black 1px;
 } 
 
@@ -168,8 +168,19 @@ div{
 	height: 100%;
 }
 
+.form-control{
+	width: 80%;
+	position: center;
+}
 
 
+label {
+	color:#6699cc;
+}
+
+footer{
+	bottom:1em;
+}
 
 /*--text--*/
 .my-navbar{

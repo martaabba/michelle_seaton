@@ -70,7 +70,7 @@ div{
 
 /*begin parallax image manipulation*/
 #current-project{
-	background-image: url("../img/castlineup.jpg");
+	background-image: url("../img/parallaxdogseesgod.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
@@ -84,7 +84,7 @@ div{
 
 
 #director-image{
-	background-image: url("../img/egypt3.jpg");
+	background-image: url("../img/parallaxcloudtectonics.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
@@ -97,7 +97,7 @@ div{
 	}
 
 #teacher-image{
-	background-image: url("../img/houseofbernardaalba.jpg");
+	background-image: url("../img/parallaxhouseofbernardaalba.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
@@ -110,8 +110,8 @@ div{
 	}
 
 #acting-image{
-	background-image: url("../img/actingkissit.jpg");
-background-size: cover;
+	background-image: url("../img/parallaxelectropus.jpg");
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat:no-repeat;

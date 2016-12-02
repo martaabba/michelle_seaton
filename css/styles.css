@@ -194,10 +194,11 @@ footer{
 	font-family: 'Rock Salt', cursive;
 }
 
+
 h1{
 	color: #6699cc;
 	font-size: 5em;
-	font-family: 'Rock Salt', cursive;
+	font-family: 'Kaushan Script', cursive;
 	text-align: center;
 }
 
@@ -211,6 +212,7 @@ h2{
 
 h3{
 	color: #6699cc;
+	font-family: 'Lora', serif;
 	font-size: 2em;
 	text-align: center;
 	
@@ -223,21 +225,50 @@ h4{
 	text-align: center;
 	
 }
+
+p{
+	color: white;
+	font-family: 'Slabo', serif;
+	font-size: 1.5em;
+	text-align: left;
+}
+#directing h2 {
+	color: #6699cc;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 4em;
+}
+
+#teaching h2 {
+	color: #6699cc;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 4em;
+}
+
 #michelleseaton  p {
 	color: #6699cc;
-	font-family: 'Rock Salt', cursive;
+	font-family: 'Kaushan Script', cursive;
 	font-size:1em;
+}
+
+#acting p{
+	color: #6699cc;
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
 }
 #contact p {
 	color: #6699cc;
+	font-family: 'Lora', serif;
 	font-size: 2em;
+	text-align: center;
+}
+
+label{
+	color: #6699cc;
+	font-family: 'Lora', serif;
+	font-size: 1em;
 	text-align: center;
 	
 }
 
 
 
-p{
-	color: white;
-	font-size: 2em;
-}

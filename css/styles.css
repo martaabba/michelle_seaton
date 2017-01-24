@@ -1,3 +1,4 @@
+/*--layout--*/
 
 *{
 	box-sizing: border-box;
@@ -8,7 +9,7 @@ body{
 	position: relative;
 }
 
-/*begin carousel css*/
+	/*begin carousel css*/
 .carousel .item {
       height: 100vh;
     }
@@ -28,15 +29,12 @@ body{
     opacity: 0;
     filter:alpha(opacity=0);
 }
-
-
-
+	/*end carousel css*/
 
 .container-fluid{
 	margin-left: -15px;
 	margin-right: -15px;
 }
-/*end carousel css*/
 
 div{
 	display:block;
@@ -46,12 +44,22 @@ div{
 	max-width: 110%;
 }
 
+footer{
+	padding-bottom:4em;
+	}
+
 /*--nav bar begin--*/
 .navbar{
 	padding-right: 1em;
 	padding-left: 1em;
 	}
-/*--nav bar end--*?
+
+.my-navbar{
+	background-color: #424b54;
+	border-radius: 0;
+	border: 0;
+	}
+/*--nav bar end--*/
 
 
 
@@ -154,27 +162,17 @@ div{
 	width: 100%;
 	}
 
-footer{
-	bottom:1em;
-	}
 
 .resume-button{
 	text-align: center;
 	}
 
-/*--text--*/
 
-.my-navbar{
-	background-color: #424b54;
-	border-radius: 0;
-	border: 0;
-	}
 
-.my-navbar .navbar-brand{
-	color: #6699cc;
-	font-size: 2em;
-	font-family: 'Rock Salt', cursive;
-	}
+
+/*--typography--*/
+
+
 
 h1{
 	color: #6699cc;
@@ -211,7 +209,11 @@ p {
 	text-align: center;
 	}
 	
-
+.my-navbar .navbar-brand{
+	color: #6699cc;
+	font-size: 2em;
+	font-family: 'Rock Salt', cursive;
+	}
 
 #current p {
 	color: #6699cc;
@@ -228,6 +230,12 @@ p {
 #michelleseaton {
 	font-size: 2em;
 	}
+
+footer{
+	color: #6699cc;
+	font-size: 1em;
+	text-align: right;
+}
 
 label{
 	color: #6699cc;

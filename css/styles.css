@@ -23,7 +23,7 @@ div{
 }
 
 footer{
-	padding-bottom:4em;
+	padding-bottom:6em;
 	}
 
 	/*begin carousel css*/
@@ -51,8 +51,9 @@ footer{
 
 	/*--nav bar begin--*/
 .navbar{
-	padding-right: 1em;
+	margin-top: 1em;
 	padding-left: 1em;
+	padding-right: 1em;
 	}
 
 .my-navbar{
@@ -63,7 +64,20 @@ footer{
 	/*--nav bar end--*/
 
 
+#headshot{
+	display:block;
+	margin: 0 auto;
+	padding-top: 1em;
 
+
+	
+}
+
+#weeping{
+	display:block;
+	margin: 0 auto;
+	padding-top: 1em;
+}
 
 
 	/*begin parallax image manipulation*/
@@ -93,7 +107,7 @@ footer{
 #teacher-image{
 	background-attachment: fixed;
 	background-color: black;
-	background-image: url("../img/parallaxHouseOfBernardaAlba.jpg");
+	background-image: url("../img/parallaxWildeAbandon.jpg");
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -104,13 +118,25 @@ footer{
 #acting-image{
 	background-attachment: fixed;
 	background-color: black;
-	background-image: url("../img/parallaxElectroPuss.jpg");
+	background-image: url("../img/parallaxMichelle.jpg");
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size: cover;
 	height: 700px;	
 	top: 50%;
 	}
+	
+#contact-image{
+	background-attachment: fixed;
+	background-color: black;
+	background-image: url("../img/parallaxElectroPuss.jpg");
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 700px;	
+	top: 50%;
+	
+}
 	/*--parallax end--*/
 
 
@@ -220,6 +246,10 @@ p {
 	text-align: center;
 	}
 	
+h4 p{
+	font-size: 1.75em;
+}
+
 .my-navbar .navbar-brand{
 	color: #6699cc;
 	font-size: 2em;
@@ -242,10 +272,15 @@ p {
 	font-size: 2em;
 	}
 
+
+#reviews {
+	font-size: 5em;
+}
+
 footer{
 	color: #6699cc;
-	font-size: 1em;
-	text-align: right;
+	font-size: .5em;
+	display: block;
 }
 
 label{

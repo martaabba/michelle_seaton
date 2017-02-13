@@ -141,6 +141,23 @@ footer{
 
 /*--reviewimages css--*/
 
+#reviewPage{
+    margin: 0px;
+    background-color: red;
+      }
+#reviewColumns{
+        padding: 1em;
+        margin: auto;
+        width: 90%;
+      }
+.block{
+        background: #fff;
+        display:inline-block;
+        padding: 0.5em;
+        margin: 0.5em;
+        width:400px;
+      }
+  
 /*--close reviewimages css--*/
 
 	/*--containers--*/

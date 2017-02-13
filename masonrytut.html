@@ -44,11 +44,12 @@
         display:inline-block;
         padding: 10px;
         margin: 10px;
-        width: 200px;
+        width: 450px;
       }
     </style>
   
     <body>
+      
       <div class="container">
         <div class="block">
            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -61,7 +62,9 @@
       vel illum dolore eu feugiat nulla facilisis at vero eros et
       accumsan et iusto odio dignissim qui blandit praesent lupta
         </div>
-      
+      <div class="block">
+        <img src="img/reviewsWeepingWomen.jpg">
+      </div>
         <div class="block">
            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -76,6 +79,9 @@
       vel illum dolore eu feugiat nulla facilisis at vero eros et
       accumsan et iusto odio dignissim qui blandit praesent lupta
         </div>
+         <div class="block">
+           <img src="img/reviewsWildeAband.jpg">
+         </div>
         <div class="block">
            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -86,6 +92,9 @@
       vel illum dolore eu feugiat nulla facilisis at vero eros et
       accumsan et iusto odio dignissim qui blandit praesent lupta
         </div>
+         <div class="block">
+           <img src="img/reviewsWalkingShadowsfight.jpg">
+         </div>
         <div class="block">
            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -97,6 +106,9 @@
       vel illum dolore eu feugiat nulla facilisis at vero eros et
       accumsan et iusto odio dignissim qui blandit praesent lupta
         </div>
+         <div class="block">
+           <img src="img/reviewsWalkingShadows.jpg">
+         </div>
         <div class="block">
            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -112,6 +124,9 @@
       modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
       in futurum.
         </div>
+         <div class="block">
+           <img src="img/reviewsLoveandInfo.jpg">
+         </div>
       <div class="block">
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
       sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -131,19 +146,16 @@
       in futurum.
     </div>
     
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
     
     <script>
-    $(window).on('load', function(){
-      $('div.container').masonry({
-        columnwidth: 'div.block',
-        itemSelector: 'div.block',
+      $(window).on('load', function(){
+       $('div.container').masonry({
+        columnWidth: 'div.block',
+        itemSelector: 'div.block'
+       }); 
         
-       });
       });
     </script>  
     </body>

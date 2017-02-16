@@ -21,8 +21,12 @@ $(document).ready(function(){
 
 	//gallery section
 	 
-  
- 
+  $(window).on('load', function(){
+       $('div.container').masonry({
+        columnWidth: 'div.block',
+        itemSelector: 'div.block'
+       });  
+    });
 	
 
   

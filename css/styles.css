@@ -135,30 +135,57 @@ footer{
 	background-size: cover;
 	height: 700px;	
 	top: 50%;
-	
-}
+	}
 	/*--parallax end--*/
 
-/*--reviewimages css--*/
+/*--review css--*/
 
-#reviewPage{
-    margin: 0px;
-    background-color: red;
-      }
-#reviewColumns{
+#reviews{
+        margin: auto 1em;
+        background-color: black;
+        width:100%;
+        border: 3px solid red;
         padding: 1em;
-        margin: auto;
-        width: 90%;
-      }
-.block{
-        background: #fff;
-        display:inline-block;
+       }
+a{
+	display: inline-block;
+	border: 3px solid purple;
+	margin: 0 auto;
+}
+
+.links{
+	border: 3px solid orange;
+	
+}
+
+.container{
+		height: 3em;
         padding: 0.5em;
+        margin: auto;
+        width: 100%;
+        border: 3px solid green;
+    	}
+.contactlink{
+	width: 50%;
+	margin: auto 0;
+	text-align: left;
+}  
+
+.homelink{
+	width: 50%;
+	margin: auto 0;
+	text-align: right;
+}
+.block{
+        
+        display: inline-block;
+        width: 12.5em;
+        
         margin: 0.5em;
-        width:400px;
-      }
+        border: 3px solid white;
+    	}
   
-/*--close reviewimages css--*/
+/*--close review css--*/
 
 	/*--containers--*/
 
@@ -269,7 +296,9 @@ p {
 h4 p{
 	font-size: 1.75em;
 }
-
+a{
+	color: #6699cc;
+}
 .my-navbar .navbar-brand{
 	color: #6699cc;
 	font-size: 2em;
@@ -294,8 +323,22 @@ h4 p{
 
 
 #reviews {
-	font-size: 5em;
+	font-size: 2em;
+	color: #6699cc; 
 }
+#reviews h2{
+	font-size:1em;
+	
+}
+#reviews h4{
+	font-size:0.5em;
+	
+}
+#reviews p{
+	font-size: .75em;
+}
+
+
 
 footer{
 	color: #6699cc;

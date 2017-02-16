@@ -10,16 +10,16 @@ $(document).ready(function(){
                   window.location.hash = href;
                                   });
               return false;
-                                              }); //close nav bar smooth scroll
+                                   }); //close nav bar smooth scroll
                                               
                                               
-  //modal button
+
  
 
 	//Stellar
 	$.stellar();
 
-	//gallery section
+	//reviews.html
 	 
   $(window).on('load', function(){
        $('div.container').masonry({

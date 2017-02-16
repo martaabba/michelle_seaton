@@ -69,16 +69,7 @@ footer{
 	margin: 0 auto;
 	padding-top: 1em;
 
-
-	
 }
-
-#weeping{
-	display:block;
-	margin: 0 auto;
-	padding-top: 1em;
-}
-
 
 	/*begin parallax image manipulation*/
 #current-project{
@@ -148,34 +139,17 @@ footer{
         padding: 1em;
        }
 a{
-	display: inline-block;
-	border: 3px solid purple;
 	margin: 0 auto;
 }
 
-.links{
-	border: 3px solid orange;
-	
-}
 
 .container{
-		height: 3em;
-        padding: 0.5em;
-        margin: auto;
-        width: 100%;
-        border: 3px solid green;
+	padding: 0.5em;
+    margin: auto;
+    width: 100%;
     	}
-.contactlink{
-	width: 50%;
-	margin: auto 0;
-	text-align: left;
-}  
+    	
 
-.homelink{
-	width: 50%;
-	margin: auto 0;
-	text-align: right;
-}
 .block{
         
         display: inline-block;
@@ -197,11 +171,18 @@ a{
 	width: 94%;
 }
 
-#gallery, 
+#gallery{
+	padding-bottom: 3em;
+	margin:0 auto;
+	width:55%;
+	border: solid red 1px;
+}
+
 #contact{
 	padding-bottom: 3em;
 	margin:0 auto;
-	width:94%;
+	width:60%;
+	border: solid green 1px;
 }
 
 
@@ -209,10 +190,19 @@ a{
 	padding-left: 5em;
 }
 
-#contact{
-	width: 70%;
+#headshot{
+	display:block;
+	margin: 0 auto;
+	padding-top: 1em;
+
 }
 
+#gallery{
+	padding-bottom: 2em;
+	padding-left: 2.5em;
+	margin:0 auto;
+	width:60%;
+}
 
 iframe{
 	display: block;
@@ -220,6 +210,7 @@ iframe{
 	margin: 0 auto;
 	padding-top: 2em;
 	padding-bottom: 1em;
+
 }
 
 .modal-body {

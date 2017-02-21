@@ -23,7 +23,7 @@ div{
 }
 
 footer{
-	padding-bottom:6em;
+	padding-bottom:10em;
 	}
 
 	/*begin carousel css*/
@@ -132,11 +132,12 @@ footer{
 /*--review css--*/
 
 #reviews{
-        margin: auto 1em;
+        margin: auto 0;
         background-color: black;
         width:100%;
-        border: 3px solid red;
-        padding: 1em;
+       
+        padding-bottom: 2em;
+        
        }
 a{
 	margin: 0 auto;
@@ -153,10 +154,9 @@ a{
 .block{
         
         display: inline-block;
-        width: 12.5em;
+        width: 10em;
+        margin: 0.25em;
         
-        margin: 0.5em;
-        border: 3px solid white;
     	}
   
 /*--close review css--*/
@@ -171,18 +171,13 @@ a{
 	width: 94%;
 }
 
-#gallery{
-	padding-bottom: 3em;
-	margin:0 auto;
-	width:55%;
-	border: solid red 1px;
-}
+
 
 #contact{
 	padding-bottom: 3em;
 	margin:0 auto;
 	width:60%;
-	border: solid green 1px;
+
 }
 
 
@@ -199,9 +194,8 @@ a{
 
 #gallery{
 	padding-bottom: 2em;
-	padding-left: 2.5em;
 	margin:0 auto;
-	width:60%;
+	width: 80%;
 }
 
 iframe{

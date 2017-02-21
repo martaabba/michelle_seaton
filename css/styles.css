@@ -2,40 +2,43 @@
 
 *{
 	box-sizing: border-box;
-}
+	}
 
 body{
 	background-color: black;
 	position: relative;
-}
+	}
 
 .container-fluid{
 	margin-left: -15px;
 	margin-right: -15px;
-}
+	}
 
 div{
 	display:block;
-}
+	}
 
 .img{
 	max-width: 110%;
-}
+	}
 
 footer{
+	display: block;
 	padding-bottom:10em;
 	}
 
-	/*begin carousel css*/
+	/*--begin carousel layout--*/
+	
 .carousel .item {
-      height: 100vh;
+    height: 100vh;
     }
+    
 .carousel img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 100vh;
+	height: 100vh;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
     }
 
 .carousel-caption{
@@ -43,10 +46,10 @@ footer{
 	}
 
 .right.carousel-control, .left.carousel-control {
-    opacity: 0;
     filter:alpha(opacity=0);
-}
-	/*end carousel css*/
+    opacity: 0;
+	}
+	/*--end carousel layout--*/
 
 
 	/*--nav bar begin--*/
@@ -58,21 +61,13 @@ footer{
 
 .my-navbar{
 	background-color: #424b54;
-	border-radius: 0;
 	border: 0;
+	border-radius: 0;
 	}
 	/*--nav bar end--*/
 
-
-#headshot{
-	display:block;
-	margin: 0 auto;
-	padding-top: 1em;
-
-}
-
-	/*begin parallax image manipulation*/
-#current-project{
+	/*--begin parallax image manipulation--*/
+#current-image, #director-image, #teacher-image,#acting-image,#contact-image {
 	background-attachment: fixed;
 	background-color: black;
 	background-image: url("../img/parallaxDogSeesGod.jpg");
@@ -83,139 +78,60 @@ footer{
 	top: 50%;
 	}
 
-
+#current-image{
+	background-image: url("../img/parallaxDogSeesGod.jpg");
+	}
+	
 #director-image{
-	background-attachment: fixed;
-	background-color: black;
 	background-image: url("../img/parallaxCloudTectonics.jpg");
-	background-position: center center;
-	background-repeat:no-repeat;
-	background-size: cover;
-	height: 700px;	
-	top: 50%;
 	}
 
 #teacher-image{
-	background-attachment: fixed;
-	background-color: black;
 	background-image: url("../img/parallaxWildeAbandon.jpg");
-	background-position: center center;
-	background-repeat:no-repeat;
-	background-size: cover;
-	height: 700px;	
-	top: 50%;
 	}
 
 #acting-image{
-	background-attachment: fixed;
-	background-color: black;
 	background-image: url("../img/parallaxMichelle.jpg");
-	background-position: center center;
-	background-repeat:no-repeat;
-	background-size: cover;
-	height: 700px;	
-	top: 50%;
 	}
 	
 #contact-image{
-	background-attachment: fixed;
-	background-color: black;
 	background-image: url("../img/parallaxElectroPuss.jpg");
-	background-position: center center;
-	background-repeat:no-repeat;
-	background-size: cover;
-	height: 700px;	
-	top: 50%;
 	}
+	
 	/*--parallax end--*/
 
-/*--review css--*/
-
-#reviews{
-        margin: auto 0;
-        background-color: black;
-        width:100%;
-       
-        padding-bottom: 2em;
-        
-       }
-a{
-	margin: 0 auto;
-}
-
-
-.container{
-	padding: 0.5em;
-    margin: auto;
-    width: 100%;
-    	}
-    	
-
-.block{
-        
-        display: inline-block;
-        width: 10em;
-        margin: 0.25em;
-        
-    	}
-  
-/*--close review css--*/
-
-	/*--containers--*/
-
-
 #acting, #directing, #teaching, #current {
+	margin:0 auto;
 	margin-bottom: 2em;
 	margin-top:2em;
-	margin:0 auto;
 	width: 94%;
-}
-
-
+	}
 
 #contact{
-	padding-bottom: 3em;
 	margin:0 auto;
+	padding-bottom: 3em;
 	width:60%;
-
-}
-
+	}
 
 #contact row{
 	padding-left: 5em;
-}
+	}
 
 #headshot{
 	display:block;
 	margin: 0 auto;
 	padding-top: 1em;
-
-}
-
-#gallery{
-	padding-bottom: 2em;
-	margin:0 auto;
-	width: 80%;
-}
-
-iframe{
-	display: block;
-	height: 90%;
-	margin: 0 auto;
-	padding-top: 2em;
-	padding-bottom: 1em;
-
-}
-
+	}
+	
 .modal-body {
-	border: solid black 1px;
+	border: solid black 1em;
 	height: 0;
 	overflow: auto; 
-	-webkit-overflow-scrolling:touch;
-	position: relative;
 	padding-bottom: 65.25%;
 	padding-top: 30px;
-} 
+	position: relative;
+	-webkit-overflow-scrolling:touch;
+	} 
 
 .modal-body iframe {
 	height: 100%;
@@ -230,18 +146,64 @@ iframe{
 	width: 100%;
 	}
 
-
 .resume-button{
 	text-align: center;
 	}
 
+#productions{
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+	width:90%;
+	}
 
-	/*--containers--*/
+#gallery{
+	display: inline-block;
+	margin:1em;
+	padding-bottom: 2em;
+	}
+
+iframe{
+	display: block;
+	height: 90%;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	padding-top: 2em;
+	}
+
+	/*--reviews.html layout--*/
+
+#reviews{
+    margin: 0 auto;
+    padding-bottom: 2em;
+    position: relative;
+    width:100%;
+    }
+    
+a  {
+	margin: 0 auto;
+	}
+
+.container{
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 100%;
+    }
+    	
+.block{
+  	display: inline-block;
+  	margin: 0.25em;
+  	width: 10em;
+    }
+  
+	/*--close review.html layout --*/
 
 
-/*--typography--*/
+
+/*--close layout--*/
 
 
+/*--start typography--*/
 
 h1{
 	color: #6699cc;
@@ -271,7 +233,7 @@ h4{
 	text-align: center;
 	}
 
-p {
+p{
 	color: #6699cc;
 	font-family: 'Lora', serif;
 	font-size: 2em;
@@ -280,56 +242,33 @@ p {
 	
 h4 p{
 	font-size: 1.75em;
-}
+	}
+
 a{
 	color: #6699cc;
-}
+	}
+	
 .my-navbar .navbar-brand{
 	color: #6699cc;
 	font-size: 2em;
 	font-family: 'Rock Salt', cursive;
 	}
 
-#current p {
+#current p{
 	color: #6699cc;
 	font-family: 'Lora', cursive;
 	font-size: 3em;
 	}
 
-#michelleseaton  p {
+#michelleseaton  p{
 	color: #6699cc;
 	font-family: 'Rock Salt', cursive;
 	font-size:0.5em;
 	}
 
-#michelleseaton {
+#michelleseaton{
 	font-size: 2em;
 	}
-
-
-#reviews {
-	font-size: 2em;
-	color: #6699cc; 
-}
-#reviews h2{
-	font-size:1em;
-	
-}
-#reviews h4{
-	font-size:0.5em;
-	
-}
-#reviews p{
-	font-size: .75em;
-}
-
-
-
-footer{
-	color: #6699cc;
-	font-size: .5em;
-	display: block;
-}
 
 label{
 	color: #6699cc;
@@ -337,6 +276,32 @@ label{
 	font-size: 1em;
 	text-align: center;
 	}
+	
+	/*--typography reviews.html--*/
+#reviews{
+	font-size: 2em;
+	color: #6699cc; 
+	}
+
+#reviews h2{
+	font-size:1em;
+	}
+
+#reviews h4{
+	font-size:0.5em;
+	}
+
+#reviews p{
+	font-size: .75em;
+	}
+	
+	/*--close typography reviews.html--*/
+
+footer{
+	color: #6699cc;
+	font-size: .5em;
+	}
+
 
 /*--end typography--*/
 

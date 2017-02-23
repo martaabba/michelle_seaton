@@ -70,7 +70,6 @@ footer{
 #current-image, #director-image, #teacher-image,#acting-image,#contact-image {
 	background-attachment: fixed;
 	background-color: black;
-	background-image: url("../img/parallaxDogSeesGod.jpg");
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -79,23 +78,23 @@ footer{
 	}
 
 #current-image{
-	background-image: url("../img/parallaxDogSeesGod.jpg");
+	background-image: url("../img/parallaxcurrentimage.jpg");
 	}
 	
 #director-image{
-	background-image: url("../img/parallaxCloudTectonics.jpg");
+	background-image: url("../img/parallaxdirectorimage.jpg");
 	}
 
 #teacher-image{
-	background-image: url("../img/parallaxWildeAbandon.jpg");
+	background-image: url("../img/parallaxteacherimage.jpg");
 	}
 
 #acting-image{
-	background-image: url("../img/parallaxMichelle.jpg");
+	background-image: url("../img/parallaxactingimage.jpg");
 	}
 	
 #contact-image{
-	background-image: url("../img/parallaxElectroPuss.jpg");
+	background-image: url("../img/parallaxcontactimage.jpg");
 	}
 	
 	/*--parallax end--*/

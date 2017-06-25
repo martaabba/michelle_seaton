@@ -245,6 +245,7 @@ h4 p{
 
 a{
 	color: #6699cc;
+	font-family: 'Rock Salt', cursive;
 	}
 	
 .my-navbar .navbar-brand{
@@ -252,14 +253,18 @@ a{
 	font-size: 2em;
 	font-family: 'Rock Salt', cursive;
 	}
-
+	
+#current a{
+	font-size: 0.5em;
+	}
+	
 #current p{
 	color: #6699cc;
 	font-family: 'Lora', cursive;
 	font-size: 3em;
 	}
 
-#michelleseaton  p{
+#michelleseaton p{
 	color: #6699cc;
 	font-family: 'Rock Salt', cursive;
 	font-size:0.5em;
@@ -268,6 +273,8 @@ a{
 #michelleseaton{
 	font-size: 2em;
 	}
+	
+
 
 label{
 	color: #6699cc;

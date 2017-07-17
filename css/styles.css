@@ -52,6 +52,7 @@ footer{
 	/*--end carousel layout--*/
 
 
+
 	/*--nav bar begin--*/
 .navbar{
 	margin-top: 1em;
@@ -67,14 +68,14 @@ footer{
 	/*--nav bar end--*/
 
 	/*--begin parallax image manipulation--*/
-#current-image, #director-image, #teacher-image,#acting-image,#contact-image {
+.parallax {
 	background-attachment: fixed;
 	background-color: black;
 	background-position: center;
 	background-repeat:no-repeat;
-	background-size: cover;
-	height: 700px;	
+	background-size: contain;
 	padding-bottom: 50%;
+	width:100%;
 	}
 
 #current-image{
@@ -103,7 +104,7 @@ footer{
 	margin:0 auto;
 	margin-bottom: 2em;
 	margin-top:2em;
-	width: 94%;
+	width: 100%;
 	}
 
 #contact{
@@ -208,6 +209,7 @@ h1{
 	color: #6699cc;
 	font-size: 4em;
 	font-family: 'Rock Salt', cursive;
+	margin: auto;
 	text-align: center;
 	}
 
@@ -269,6 +271,8 @@ a{
 	font-family: 'Rock Salt', cursive;
 	font-size:0.5em;
 	}
+
+#michelleseaton h1{
 
 #michelleseaton{
 	font-size: 2em;

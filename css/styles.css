@@ -68,15 +68,13 @@ footer{
 
 	/*--begin parallax image manipulation--*/
 #current-image, #director-image, #teacher-image,#acting-image,#contact-image {
-	/*--background-attachment: fixed;
+	background-attachment: fixed;
 	background-color: black;
-	background-size: cover;--*/
-	/*new*/-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;/*new/
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
 	height: 700px;	
-	top: 50%;
+	padding-bottom: 50%;
 	}
 
 #current-image{

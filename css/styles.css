@@ -29,14 +29,14 @@ footer{
 
 	/*--begin carousel layout--*/
 	
-.carousel .item {
-    height: 100vh;
-    }
+.item {
+	margin-bottom: 1.5em;
+}
     
-.carousel img {
+.carousel img .item {
 	height: 100vh;
     left: 0;
-    min-width: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     }

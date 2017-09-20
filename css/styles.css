@@ -29,6 +29,20 @@ footer{
 	display: block;
 	padding-bottom:10em;
 	}
+	
+	/*--nav bar begin--*/
+.navbar{
+	margin-top: 1em;
+	padding: 1em;
+	
+	}
+
+.my-navbar{
+	background-color: #424b54;
+	border: 0;
+	border-radius: 0;
+	}
+	/*--nav bar end--*/
 
 	/*--begin carousel layout--*/
 	
@@ -42,22 +56,6 @@ footer{
     opacity: 0;
 	}
 	/*--end carousel layout--*/
-
-
-
-	/*--nav bar begin--*/
-.navbar{
-	margin-top: 1em;
-	padding-left: 1em;
-	padding-right: 1em;
-	}
-
-.my-navbar{
-	background-color: #424b54;
-	border: 0;
-	border-radius: 0;
-	}
-	/*--nav bar end--*/
 
 	/*--begin parallax image manipulation--*/
 .parallax {
@@ -264,7 +262,7 @@ a{
 	font-size:0.5em;
 	}
 
-#michelleseaton h1{
+
 
 #michelleseaton{
 	font-size: 2em;

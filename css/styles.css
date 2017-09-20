@@ -17,10 +17,13 @@ body{
 div{
 	display:block;
 	}
+	
+.carousel-inner > .item > img{
+	display: block;
+  	height: auto;
+  	width: 100%;
+}
 
-.img{
-	max-width: 110%;
-	}
 
 footer{
 	display: block;
@@ -29,17 +32,6 @@ footer{
 
 	/*--begin carousel layout--*/
 	
-.item {
-	margin-bottom: 1.5em;
-}
-    
-.carousel img .item {
-	height: 100vh;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    }
 
 .carousel-caption{
 	text-align: right;
@@ -100,7 +92,7 @@ footer{
 	
 	/*--parallax end--*/
 
-#acting, #directing, #teaching, #current {
+#acting, #directing, #teaching, #current, #michelleseaton {
 	margin:0 auto;
 	margin-bottom: 2em;
 	margin-top:2em;

@@ -70,22 +70,27 @@ footer{
 
 #current-image{
 	background-image: url("../img/parallaxcurrentimage.jpg");
+	background-size: cover;
 	}
 	
 #director-image{
 	background-image: url("../img/parallaxdirectorimage.jpg");
+	background-size: cover;
 	}
 
 #teacher-image{
 	background-image: url("../img/parallaxteacherimage.jpg");
+	background-size: cover;
 	}
 
 #acting-image{
 	background-image: url("../img/parallaxactingimage.jpg");
+	background-size: cover;
 	}
 	
 #contact-image{
 	background-image: url("../img/parallaxcontactimage.jpg");
+	background-size: cover;
 	}
 	
 	/*--parallax end--*/
